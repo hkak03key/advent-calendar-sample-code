@@ -1,0 +1,7 @@
+/*
+state.tf で指定したbackendの Configuration variables を利用可能
+local backend: https://developer.hashicorp.com/terraform/language/settings/backends/local#configuration-variables
+s3 backend: https://developer.hashicorp.com/terraform/language/settings/backends/s3#configuration
+*/
+
+path = "tfstates/stg.tfstate"
